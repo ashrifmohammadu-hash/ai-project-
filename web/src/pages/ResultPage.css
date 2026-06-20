@@ -1,0 +1,161 @@
+.result-image img {
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #0a0a0a;
+}
+
+.result-main {
+  text-align: center;
+}
+
+.severity-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.severity-high {
+  background: rgba(46, 125, 50, 0.15);
+  color: var(--success);
+}
+
+.severity-medium {
+  background: rgba(249, 168, 37, 0.2);
+  color: #e65100;
+}
+
+.severity-low {
+  background: rgba(198, 40, 40, 0.12);
+  color: var(--danger);
+}
+
+.result-disease {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+}
+
+.result-plant {
+  color: var(--text-muted);
+  margin: 0 0 1rem;
+}
+
+.warning-box {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+[data-theme="dark"] .warning-box {
+  background: #3d3520;
+  border-color: #5c4a20;
+}
+
+.clarify-box {
+  text-align: left;
+  background: var(--bg);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.clarify-question {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.clarify-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.treatment-section {
+  text-align: left;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.treatment-section h3 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.info-row {
+  margin-bottom: 1rem;
+}
+
+.info-row strong {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.info-row p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.alt-predictions {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.alt-predictions ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.result-actions .btn {
+  flex: 1;
+  min-width: 140px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.not-found-box {
+  padding: 2rem 1rem;
+}
+
+.not-found-title {
+  color: var(--warning, #f5a623);
+  font-size: 1.5rem;
+}
+
+.not-found-message {
+  color: var(--text-secondary);
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.not-found-hint {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  line-height: 1.5;
+}

@@ -1,0 +1,101 @@
+# ── Environment ──
+.env
+.env.local
+.env.example
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.so
+pyvenv.cfg
+
+# ── Node ──
+node_modules/
+web/node_modules/
+web/dist/
+plant-disease-backend/node_modules/
+plant-disease-backend/web/node_modules/
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ── Logs & temp files ──
+*.log
+backend.err
+frontend.err
+backend2.log
+flask_err.txt
+flask_log.txt
+train_error.log
+train_output.log
+
+# ── Uploads ──
+uploads/
+plant-disease-backend/uploads/
+
+# ── Virtual environments ──
+.venv/
+venv/
+backend_env/
+.test_venv/
+plant_env/
+*.venv*/
+
+# ── Model weights & pickles ──
+*.pth
+*.pkl
+*.h5
+*.keras
+plant-disease-backend/models/
+
+# ── Large image directories ──
+Merge-Project/cleaned/
+Merge-Project/dataset_balanced/
+Merge-Project/dataset_sri_lanka/
+Merge-Project/marged/
+Merge-Project/merged/
+Merge-Project/raw_datasets/
+Merge-Project/resized_merged/
+Merge-Project/train/
+Merge-Project/val/
+Merge-Project/test/
+Merge-Project/plant_env/
+Merge-Project/output/*.pth
+Merge-Project/output/*.pkl
+Merge-Project/output/*.txt
+
+# ── Backend evaluation & test data ──
+plant-disease-backend/eval_output/
+plant-disease-backend/leaf_classifier/
+plant-disease-backend/test_images/*.jpg
+plant-disease-backend/models/
+plant-disease-backend/prediction_history.json
+plant-disease-backend/local_users.json
+plant-disease-backend/refresh_tokens.json
+
+# ── Image files (dataset/eval data, not source code) ──
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.gif
+*.svg
+!web/src/assets/*.svg
+!web/public/*.svg
+!web/src/assets/*.png
+
+# ── Test scripts (local only) ──
+test_*.py
+debug_*.py
+tmp_*.py
+smoke_check.py
+*.ps1
