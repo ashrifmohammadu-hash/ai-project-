@@ -1,0 +1,22 @@
+.login-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1200;
+}
+.login-modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 320px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+.login-modal h3 { margin: 0 0 0.75rem 0; }
+.login-modal .form-group { margin-bottom: 0.75rem; }
+.login-modal input { width: 100%; padding: 0.5rem; border-radius: 6px; border: 1px solid var(--border); }
+.modal-actions { display:flex; gap:0.5rem; justify-content:flex-end; margin-top:0.5rem; }
+.auth-error { color: var(--danger); margin-top:0.25rem; }

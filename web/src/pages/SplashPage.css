@@ -1,0 +1,51 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.home-page { position: relative; overflow: hidden; }
+.home-hero {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+  gap: 2rem;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+.hero-content { max-width: 640px; }
+.hero-badge { font-size: 48px; margin-bottom: 0.5rem }
+.hero-title { margin: 0; font-size: 2.25rem }
+.hero-sub { color: var(--text-muted); margin-top: 0.5rem }
+.hero-ctas { margin-top: 1.25rem; display:flex; gap:0.75rem }
+.btn-lg { padding: 0.8rem 1.1rem; font-size:1rem }
+.btn-outline { background: transparent; border: 1px solid var(--border); color: var(--text); }
+.hero-art svg { width:100%; height:auto; border-radius:12px; box-shadow: 0 10px 30px rgba(0,0,0,0.08) }
+
+/* Animated background blobs */
+.animated-bg { position: absolute; inset: 0; pointer-events: none; z-index: 0 }
+.animated-bg .blob {
+  position: absolute; width: 360px; height: 360px; border-radius: 50%; filter: blur(38px); opacity: 0.6;
+  transform: translate3d(0,0,0);
+}
+.animated-bg .b1 { background: linear-gradient(45deg,#7ad17d,#3aa17a); left: -10%; top: -10%; animation: float1 12s infinite ease-in-out; }
+.animated-bg .b2 { background: linear-gradient(45deg,#8bd78a,#4ec28f); right: -20%; top: 10%; animation: float2 18s infinite ease-in-out; }
+.animated-bg .b3 { background: linear-gradient(45deg,#6fc06e,#2fa06a); left: 20%; bottom: -15%; width: 480px; height: 480px; animation: float3 20s infinite ease-in-out; }
+.animated-bg .b4 { background: linear-gradient(45deg,#5fbb63,#2f9a5a); right: 10%; bottom: -20%; width: 260px; height: 260px; animation: float4 14s infinite ease-in-out; }
+
+@keyframes float1 { 0% { transform: translateY(0) translateX(0) } 50% { transform: translateY(18px) translateX(20px) } 100% { transform: translateY(0) translateX(0) } }
+@keyframes float2 { 0% { transform: translateY(0) translateX(0) } 50% { transform: translateY(28px) translateX(-30px) } 100% { transform: translateY(0) translateX(0) } }
+@keyframes float3 { 0% { transform: translateY(0) translateX(0) } 50% { transform: translateY(-24px) translateX(12px) } 100% { transform: translateY(0) translateX(0) } }
+@keyframes float4 { 0% { transform: translateY(0) translateX(0) } 50% { transform: translateY(-18px) translateX(-12px) } 100% { transform: translateY(0) translateX(0) } }
+
+/* Ensure main content is above animated background */
+.home-hero, .features, .home-footer { position: relative; z-index: 1 }
+
+.features { padding: 0 2rem 3rem; }
+.features-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin-top:1rem }
+.feature { background: var(--surface); border:1px solid var(--border); padding:1rem; border-radius:8px }
+
+.home-footer { text-align:center; padding:1rem 0; color: var(--text-muted) }
+
+@media (max-width: 900px) {
+  .home-hero { grid-template-columns: 1fr; padding: 3rem 1rem }
+  .hero-art { order: -1 }
+}

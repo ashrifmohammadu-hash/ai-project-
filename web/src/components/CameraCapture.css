@@ -1,0 +1,145 @@
+.camera-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fadeIn 0.2s ease;
+}
+
+.camera-panel {
+  position: relative;
+  background: #111;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 720px;
+  width: 100%;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+}
+
+.camera-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.camera-close:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.camera-error {
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.btn-camera-fallback {
+  margin-top: 1.2rem;
+  padding: 0.7rem 1.5rem;
+  border: 1px solid #666;
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-camera-fallback:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.camera-live-view,
+.camera-captured-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-video {
+  width: 100%;
+  display: block;
+  background: #000;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.camera-preview-img {
+  width: 100%;
+  display: block;
+  max-height: 70vh;
+  object-fit: contain;
+  background: #000;
+}
+
+.camera-actions {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.btn-camera {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-camera-capture {
+  margin: 1rem 0;
+  padding: 0.85rem 3rem;
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  color: #fff;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 16px rgba(76, 175, 80, 0.3);
+}
+
+.btn-camera-capture:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 22px rgba(76, 175, 80, 0.45);
+}
+
+.btn-camera-primary {
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  color: #fff;
+}
+
+.btn-camera-primary:hover {
+  transform: scale(1.05);
+}
+
+.btn-camera-secondary {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-camera-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

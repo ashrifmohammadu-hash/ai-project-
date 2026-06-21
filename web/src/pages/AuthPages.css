@@ -1,0 +1,154 @@
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  isolation: isolate;
+}
+
+.auth-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=80")
+    center / cover no-repeat;
+}
+
+.auth-page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    135deg,
+    rgba(27, 94, 32, 0.72) 0%,
+    rgba(46, 125, 50, 0.60) 40%,
+    rgba(76, 175, 80, 0.45) 100%
+  );
+}
+
+.auth-container {
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+  z-index: 1;
+}
+
+.auth-card {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 480px) {
+  .auth-page { padding: 1rem; }
+  .auth-card { padding: 1.25rem; }
+}
+.auth-card h1 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.25rem;
+}
+.auth-form .form-group label { display:block; margin-bottom:0.25rem; font-weight:600 }
+.auth-form input { width:100%; padding:0.6rem; border-radius:6px; border:1px solid var(--border) }
+.auth-form input:focus { outline: none; border-color: #1e8f3a; box-shadow: 0 0 0 4px rgba(30,143,58,0.06) }
+.auth-form input.input-valid { border-color: #1e8f3a; box-shadow: 0 6px 14px rgba(30,143,58,0.06) }
+.auth-form input.input-invalid { border-color: #e05b5b; box-shadow: 0 6px 14px rgba(224,91,91,0.04) }
+
+.username-row { display:flex; gap:0.5rem; align-items:center }
+.username-row input { flex:1 }
+.auth-actions { display:flex; gap:0.5rem; justify-content:flex-end; margin-top:0.5rem }
+.auth-error { color: var(--danger); margin-top:0.25rem }
+
+/* Enhanced create-account button and animations */
+.btn-create {
+  --btn-h: 44px;
+  height: var(--btn-h);
+  padding: 0 1.25rem;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg,#2ea24b 0%,#198038 100%);
+  box-shadow: 0 8px 18px rgba(25,128,56,0.18), 0 2px 6px rgba(0,0,0,0.06);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 180ms cubic-bezier(.2,.9,.2,1), box-shadow 180ms;
+  will-change: transform;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-create:hover { transform: translateY(-3px); box-shadow: 0 14px 28px rgba(25,128,56,0.18); }
+.btn-create:active { transform: translateY(0); box-shadow: 0 6px 12px rgba(0,0,0,0.08); }
+.btn-create[disabled] { opacity: 0.7; cursor: default; transform: none }
+
+/* Small entrance animation for the auth card */
+.auth-card {
+  animation: auth-card-entrance 360ms ease both;
+}
+@keyframes auth-card-entrance {
+  from { opacity: 0; transform: translateY(8px) scale(.998) }
+  to { opacity: 1; transform: translateY(0) scale(1) }
+}
+
+.auth-footer { margin-top: 0.5rem; display:flex; justify-content:flex-start }
+.auth-footer .link { background:transparent; border:1px solid var(--border); padding:6px 8px; border-radius:6px; cursor:pointer }
+
+/* Green auth footer button (e.g. "Already have an account? Sign in") */
+.btn-auth-switch {
+  background: linear-gradient(180deg, #2ea24b 0%, #198038 100%);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 180ms cubic-bezier(.2,.9,.2,1), box-shadow 180ms;
+  will-change: transform;
+  font-size: 0.85rem;
+}
+.btn-auth-switch:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(25,128,56,0.18);
+}
+
+/* Password visibility toggle */
+.password-wrapper {
+  position: relative;
+}
+.password-wrapper input {
+  padding-right: 2.5rem !important;
+}
+.password-toggle {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 4px 6px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  border-radius: 4px;
+}
+.password-toggle:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+/* Username helper */
+.username-hint { font-size:0.85rem; color:var(--muted); margin-top:0.25rem }
+
+
