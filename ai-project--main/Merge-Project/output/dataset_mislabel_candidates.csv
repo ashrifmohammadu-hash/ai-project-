@@ -1,0 +1,81 @@
+path,folder_label,predicted,proba,top2,top2_proba,crop_match
+dataset_sri_lanka\Banana_Sigatoka\ban_00217.jpg,Banana_Sigatoka,Banana_Xanthomonas_wilt,0.55,Banana_Sigatoka,0.4375,yes
+dataset_sri_lanka\Banana_Sigatoka\ban_00279.jpg,Banana_Sigatoka,Banana_Xanthomonas_wilt,0.6625,Banana_Sigatoka,0.1625,yes
+dataset_sri_lanka\Banana_Sigatoka\ban_00537.jpg,Banana_Sigatoka,Banana_Xanthomonas_wilt,0.55,Banana_Sigatoka,0.4375,yes
+dataset_sri_lanka\Banana_Sigatoka\ban_00599.jpg,Banana_Sigatoka,Banana_Xanthomonas_wilt,0.6625,Banana_Sigatoka,0.1625,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00496.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.5625,Banana_Xanthomonas_wilt,0.4,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00516.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.6625,Banana_Xanthomonas_wilt,0.3,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00517.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.65,Banana_Xanthomonas_wilt,0.275,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00552.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.575,Banana_Xanthomonas_wilt,0.375,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00587.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.6875,Banana_Xanthomonas_wilt,0.175,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00660.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.5625,Banana_Xanthomonas_wilt,0.4125,yes
+dataset_sri_lanka\Banana_Xanthomonas_wilt\ban_00707.jpg,Banana_Xanthomonas_wilt,Banana_Sigatoka,0.65,Banana_Xanthomonas_wilt,0.325,yes
+dataset_sri_lanka\Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot\ai dataset_8596a96c-faff-424a-9f05-c21f486d63c5___RS_GLSp 4372.JPG,Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot,Corn_(maize)_Northern_Leaf_Blight,0.575,Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot,0.325,yes
+dataset_sri_lanka\Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot\ai dataset_d703fb4d-1b5e-4fde-8cb9-d639a884e3ee___RS_GLSp 4401.JPG,Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot,Corn_(maize)_Northern_Leaf_Blight,0.55,Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot,0.45,yes
+dataset_sri_lanka\Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot\ai dataset_f7044e72-6f61-45ce-9636-43f653381797___RS_GLSp 4637 copy_new30degFlipLR.jpg,Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot,Corn_(maize)_Common_rust_,0.6125,Corn_(maize)_Cercospora_leaf_spot_Gray_leaf_spot,0.2625,yes
+dataset_sri_lanka\Mango_healthy\mango_00051.jpg,Mango_healthy,Mango_Anthracnose,0.675,Mango_healthy,0.2125,yes
+dataset_sri_lanka\Papaya_Anthracnose\papaya_00193.jpg,Papaya_Anthracnose,Papaya_Ringspot,0.5625,Corn_(maize)_healthy,0.1,yes
+dataset_sri_lanka\Papaya_Anthracnose\papaya_00256.jpg,Papaya_Anthracnose,Papaya_Bacterial_spot,0.6573,Papaya_Leaf_curl,0.1802,yes
+dataset_sri_lanka\Papaya_Anthracnose\papaya_00316.jpg,Papaya_Anthracnose,Papaya_Leaf_curl,0.6104,Papaya_Bacterial_spot,0.0896,yes
+dataset_sri_lanka\Papaya_Anthracnose\papaya_00337.jpg,Papaya_Anthracnose,Papaya_Bacterial_spot,0.5675,Papaya_Leaf_curl,0.1575,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00075.jpg,Papaya_Bacterial_spot,Papaya_Ringspot,0.675,Papaya_Bacterial_spot,0.25,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00151.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.675,Papaya_Bacterial_spot,0.2,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00158.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.675,Papaya_healthy,0.075,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00166.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.755,Papaya_Bacterial_spot,0.245,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00176.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.6625,Papaya_Bacterial_spot,0.1625,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00177.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7427,Papaya_Bacterial_spot,0.2198,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00181.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7125,Papaya_Bacterial_spot,0.1125,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00182.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7448,Papaya_Bacterial_spot,0.1177,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00184.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.5844,Papaya_Bacterial_spot,0.4156,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00191.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.6937,Papaya_Bacterial_spot,0.2437,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00197.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.8287,Papaya_Bacterial_spot,0.1337,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00206.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7812,Papaya_Bacterial_spot,0.1688,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00218.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7833,Papaya_Bacterial_spot,0.1792,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00227.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.8179,Papaya_Bacterial_spot,0.1696,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00229.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7219,Papaya_Bacterial_spot,0.2281,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00235.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7263,Papaya_Bacterial_spot,0.1613,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00243.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.65,Papaya_Bacterial_spot,0.3125,yes
+dataset_sri_lanka\Papaya_Bacterial_spot\papaya_00252.jpg,Papaya_Bacterial_spot,Papaya_Leaf_curl,0.7115,Papaya_Bacterial_spot,0.226,yes
+dataset_sri_lanka\Papaya_healthy\papaya_00156.jpg,Papaya_healthy,Papaya_Anthracnose,0.8,Papaya_healthy,0.05,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00251.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.8344,Papaya_Leaf_curl,0.1031,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00304.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.775,Papaya_healthy,0.1,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00307.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5766,Papaya_Leaf_curl,0.2609,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00312.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5533,Papaya_Leaf_curl,0.4467,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00314.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.8594,Papaya_Leaf_curl,0.1031,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00323.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5769,Papaya_Leaf_curl,0.3481,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00326.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.6708,Papaya_Leaf_curl,0.1667,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00331.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.8208,Papaya_Leaf_curl,0.1167,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00341.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.7229,Papaya_Anthracnose,0.175,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00349.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5558,Papaya_Leaf_curl,0.4317,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00350.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5746,Papaya_Leaf_curl,0.4129,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00352.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.6917,Papaya_Anthracnose,0.2125,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00355.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5706,Papaya_Leaf_curl,0.4169,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00357.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.7812,Papaya_Leaf_curl,0.1687,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00361.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.6025,Papaya_Leaf_curl,0.3975,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00362.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.7773,Papaya_Leaf_curl,0.1977,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00363.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.8167,Papaya_Leaf_curl,0.0833,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00365.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.6073,Papaya_Leaf_curl,0.3927,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00371.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.851,Papaya_Leaf_curl,0.099,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00380.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.83,Papaya_Leaf_curl,0.0825,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00381.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.7231,Papaya_Leaf_curl,0.1394,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00384.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.605,Papaya_Leaf_curl,0.395,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00387.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5883,Papaya_Leaf_curl,0.4117,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00388.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.8375,Papaya_Leaf_curl,0.1,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00393.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.57,Papaya_Leaf_curl,0.3675,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00395.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.5504,Papaya_Leaf_curl,0.4496,yes
+dataset_sri_lanka\Papaya_Leaf_curl\papaya_00398.jpg,Papaya_Leaf_curl,Papaya_Bacterial_spot,0.7235,Papaya_Leaf_curl,0.2515,yes
+dataset_sri_lanka\Potato_Early_blight\ai dataset_9cd81447-0701-4969-86aa-5f20269923c5___RS_Early.B 8790.JPG,Potato_Early_blight,Potato_Late_blight,0.6625,Potato_Early_blight,0.15,yes
+dataset_sri_lanka\Tea_Bird_eye_spot\tea_00007.jpg,Tea_Bird_eye_spot,Tea_Anthracnose,0.575,Tea_Bird_eye_spot,0.2125,yes
+dataset_sri_lanka\Tea_Bird_eye_spot\tea_00009.jpg,Tea_Bird_eye_spot,Tea_Anthracnose,0.9,Tea_Bird_eye_spot,0.0375,yes
+dataset_sri_lanka\Tea_White_spot\tea_00083.jpg,Tea_White_spot,Tea_Brown_blight,0.575,Tea_White_spot,0.325,yes
+dataset_sri_lanka\Tea_White_spot\tea_00085.jpg,Tea_White_spot,Tea_Brown_blight,0.6125,Tea_White_spot,0.2,yes
+dataset_sri_lanka\Tomato_Bacterial_spot\ai dataset_090e981e-4e75-48db-806d-c28c970f3c9a___UF.GRC_BS_Lab Leaf 9256.JPG,Tomato_Bacterial_spot,Tomato_Tomato_Yellow_Leaf_Curl_Virus,0.5625,Tomato_Bacterial_spot,0.3125,yes
+dataset_sri_lanka\Tomato_Bacterial_spot\ai dataset_94532bf7-7d74-455a-8526-938c93da0d63___UF.GRC_BS_Lab Leaf 9226.JPG,Tomato_Bacterial_spot,Tomato_Tomato_Yellow_Leaf_Curl_Virus,0.6,Tomato_Bacterial_spot,0.1625,yes
+dataset_sri_lanka\Tomato_Bacterial_spot\ai dataset_eea69188-8c51-4d11-9e2d-4aec3e91a078___UF.GRC_BS_Lab Leaf 8912.JPG,Tomato_Bacterial_spot,Tomato_Tomato_Yellow_Leaf_Curl_Virus,0.575,Orange_Haunglongbing_(Citrus_greening),0.275,yes
+dataset_sri_lanka\Tomato_Late_blight\ai dataset_136d79a3-4eea-4415-9f3e-0ccb61d7aeef___RS_Late.B 5216.JPG,Tomato_Late_blight,Tomato_Early_blight,0.55,Tomato_Late_blight,0.3,yes
+dataset_sri_lanka\Tomato_Late_blight\ai dataset_2164b3f8-102c-481c-9d89-7e2f6087a121___RS_Late.B 5065.JPG,Tomato_Late_blight,Tomato_Early_blight,0.5625,Tomato_Tomato_Yellow_Leaf_Curl_Virus,0.075,yes
+dataset_sri_lanka\Tomato_Late_blight\ai dataset_76ca83b8-0695-470d-a715-2fcb9efb4fc4___RS_Late.B 5062.JPG,Tomato_Late_blight,Tomato_Early_blight,0.55,Tomato_Late_blight,0.1125,yes
+dataset_sri_lanka\Tomato_Late_blight\ai dataset_d674cbf6-0cdc-407a-97ea-c3f53f2c51e4___GH_HL Leaf 170.JPG,Tomato_Late_blight,Tomato_healthy,0.95,Tomato_Tomato_mosaic_virus,0.0125,yes
+dataset_sri_lanka\Tomato_Target_Spot\ai dataset_84f8fd9a-fb45-4322-8ee3-17e42be6b0e0___Com.G_TgS_FL 9773.JPG,Tomato_Target_Spot,Tomato_Spider_mites_Two-spotted_spider_mite,0.7875,Tomato_Target_Spot,0.0625,yes
+dataset_sri_lanka\Tomato_Target_Spot\ai dataset_ea656be9-03db-4a81-b78c-12a7f9f87d01___Com.G_TgS_FL 9682.JPG,Tomato_Target_Spot,Tomato_Spider_mites_Two-spotted_spider_mite,0.575,Tomato_Target_Spot,0.2,yes
+dataset_sri_lanka\Tomato_Tomato_Yellow_Leaf_Curl_Virus\ai dataset_b00db472-11ed-444e-a2da-84775b902b3f___YLCV_NREC 2690.JPG,Tomato_Tomato_Yellow_Leaf_Curl_Virus,Tomato_Spider_mites_Two-spotted_spider_mite,0.625,Tomato_Tomato_Yellow_Leaf_Curl_Virus,0.2125,yes

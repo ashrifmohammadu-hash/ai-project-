@@ -1,0 +1,38 @@
+.confidence-ring {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid var(--border);
+  margin: 0 auto 1rem;
+}
+
+.confidence-ring.level-high {
+  border-color: var(--success);
+  background: rgba(46, 125, 50, 0.1);
+}
+
+.confidence-ring.level-medium {
+  border-color: var(--warning);
+  background: rgba(249, 168, 37, 0.1);
+}
+
+.confidence-ring.level-low {
+  border-color: var(--danger);
+  background: rgba(198, 40, 40, 0.08);
+}
+
+.confidence-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.confidence-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
