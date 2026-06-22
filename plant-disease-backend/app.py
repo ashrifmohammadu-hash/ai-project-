@@ -479,28 +479,6 @@ def diseases():
         return jsonify({"error": str(e)}), 400
 
 
-@app.route("/stats", methods=["GET"])
-def stats():
-    """Get prediction statistics for the local user."""
-    try:
-        data = list_predictions(LOCAL_USER_ID)
-        total = len(data)
-        confident = sum(1 for p in data if p.get("is_confident"))
-        diseases_count = {}
-        for p in data:
-            disease = p.get("disease", "unknown")
-            diseases_count[disease] = diseases_count.get(disease, 0) + 1
-        
-        return jsonify({
-            "total_predictions": total,
-            "confident_predictions": confident,
-            "accuracy": (confident / total * 100) if total > 0 else 0,
-            "diseases_breakdown": diseases_count,
-        }), 200
-    except Exception as e:
-        return jsonify({"error": str(e)}), 400
-
-
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve_frontend(path):
@@ -516,7 +494,6 @@ def serve_frontend(path):
         "answer",
         "treatment",
         "diseases",
-        "stats",
     )
     if path.split("/", 1)[0] in api_prefixes:
         return jsonify({"error": "Not found"}), 404
